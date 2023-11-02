@@ -36,7 +36,7 @@ public class credit extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         System.out.println(item.getTitle().toString());
-        if (item.getTitle().toString() == "main"){
+        if (item.getTitle().toString().equals("main")){
             finish();
         }
         return super.onOptionsItemSelected(item);
